@@ -39,7 +39,7 @@ function Courses() {
   return (
     <div className="courses">
       <h1 className="title">Courses</h1>
-      {/* <div className="main">
+      <div className="main">
         {course_database.map((val) => {
           return (
             <div className="course" key={val.id}>
@@ -60,7 +60,7 @@ function Courses() {
             </div>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 }
