@@ -4,7 +4,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 4rem 13.6rem;
+  padding: 2rem 13.6rem;
+  margin: 4rem 0 6rem 0;
   gap: 8rem;
   &__left {
     // width: 45%;
