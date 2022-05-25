@@ -1,7 +1,7 @@
+$breakpoint-phone: 390px;
+$breakpoint-lanscape: 1280px;
+$breakpoint-tablet: 790px;
 .courses {
-  $breakpoint-phone: 390px;
-  @media (max-width: $breakpoint-phone) {
-  }
   .title {
     font-size: 48px;
     font-weight: bold;
@@ -12,18 +12,28 @@
     }
   }
   .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: center;
     gap: 30px;
     @media (max-width: $breakpoint-phone) {
+      display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
     }
+    @media (max-width: $breakpoint-lanscape) {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .course {
       background-color: #f1f1f1;
+      max-width: 385px;
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 300px;
+      }
+      @media (max-width: $breakpoint-phone) {
+        max-width: 350px;
+      }
       .img {
         img {
           width: 100%;
@@ -40,10 +50,16 @@
           padding: 20px;
           gap: 15px;
         }
-
+        @media (max-width: $breakpoint-lanscape) {
+          padding: 15px 25px;
+          gap: 10px;
+        }
         .heading_secondary {
           font-size: 30px;
           font-weight: bold;
+          @media (max-width: $breakpoint-lanscape) {
+            font-size: 24px;
+          }
           @media (max-width: $breakpoint-phone) {
             font-size: 24px;
           }
@@ -53,6 +69,9 @@
           line-height: 1.5;
           @media (max-width: $breakpoint-phone) {
             font-size: 14px;
+          }
+          @media (max-width: $breakpoint-lanscape) {
+            font-size: 16px;
           }
         }
       }
@@ -64,15 +83,20 @@
         flex-direction: column;
         align-items: center;
         font-weight: bold;
-        gap: 10px;
+        gap: 5px;
         @media (max-width: $breakpoint-phone) {
           font-size: 18px;
           padding: 15px 30px;
         }
+        @media (max-width: $breakpoint-lanscape) {
+          gap: 0;
+          font-size: 18px;
+        }
         .time {
-          padding: 10px;
-          @media (max-width: $breakpoint-phone) {
-            padding: 5px;
+          padding: 5px;
+          text-align: center;
+          @media (max-width: $breakpoint-lanscape) {
+            padding: 0;
           }
         }
         hr {
@@ -94,6 +118,10 @@
           @media (max-width: $breakpoint-phone) {
             font-size: 18px;
             width: 110%;
+          }
+          @media (max-width: $breakpoint-lanscape) {
+            margin-top: 0;
+            font-size: 20px;
           }
         }
       }
