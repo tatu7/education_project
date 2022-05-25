@@ -12,23 +12,23 @@ function Clients() {
         </div>
         <div className="clients__active">
           <div className="clients__active--pictures">
-            <div className="picture1">
+            <div className="picture">
               <div className="picture1--front"></div>
               <div className="picture1--back"></div>
             </div>
-            <div className="picture2">
+            <div className="picture">
               <div className="picture2--front"></div>
               <div className="picture2--back"></div>
             </div>
-            <div className="picture3">
+            <div className="picture">
               <div className="picture3--front"></div>
               <div className="picture3--back"></div>
             </div>
-            <div className="picture4">
+            <div className="picture">
               <div className="picture4--front"></div>
               <div className="picture4--back"></div>
             </div>
-            <div className="picture5">
+            <div className="picture">
               <div className="picture5--front"></div>
               <div className="picture5--back"></div>
             </div>
