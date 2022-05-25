@@ -13,16 +13,16 @@ import Teachers from "./components/Teachers/Teachers";
 function App() {
   return (
     <>
-      <Header />
-      <Education />
+      {/* <Header /> */}
+      {/* <Education /> */}
       <Features />
-      <Courses />
-      <Teachers />
-      <Programs />
-      <Clients />
-      <Blog />
-      <Contact />
-      <Footer />
+      {/* <Courses /> */}
+      {/* <Teachers /> */}
+      {/* <Programs /> */}
+      {/* <Clients /> */}
+      {/* <Blog /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 }
