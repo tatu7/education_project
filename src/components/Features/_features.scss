@@ -1,5 +1,5 @@
 .feauters {
-  width: 100%;
+  width: 100vw;
   padding: 2rem 0;
   // height: 100%;
   background-color: #f0f0f0;
@@ -90,6 +90,58 @@
   .card6 {
     .feauters__card--card--picture {
       background-image: url(../../Assets/images/feature6.png);
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  p {
+    padding: 0 1rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .feauters {
+    font-size: 14px;
+    &__cards {
+      grid-template-columns: auto auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feauters {
+    &__cards {
+      grid-template-columns: auto auto;
+    }
+
+    h2 {
+      padding: 1.5rem;
+      font-size: 34px;
+    }
+
+    p {
+      padding: 0 1.5rem;
+      line-height: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .feauters {
+    &__cards {
+      grid-template-columns: auto;
+    }
+
+    h2 {
+      padding: 1rem;
+      font-size: 32px;
+    }
+
+    p {
+      padding: 0 1rem;
+      line-height: 2rem;
     }
   }
 }
