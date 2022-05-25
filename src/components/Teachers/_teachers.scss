@@ -6,7 +6,6 @@
   .teachers__title {
     text-align: center;
     padding-top: 6.7rem;
-    padding-bottom: 4rem;
     font-size: 4.8rem;
   }
   .teachers__main {
@@ -19,15 +18,14 @@
   }
 
   .teacherTitle {
-    width: 38rem;
-    height: 11rem;
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
   }
   .teacherTitle:hover {
     transform: scale(1.1);
     transition: all 1s;
+    cursor: pointer;
   }
   .teacherTitle__imgTeacher--img {
     width: 9.6rem;
@@ -37,10 +35,12 @@
     font-size: 3rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
   .teacherTitle__teacher--status {
     font-size: 2.4rem;
     color: #27ae60;
     margin-left: 4rem;
+    font-weight: bold;
   }
 }
