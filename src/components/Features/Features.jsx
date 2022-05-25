@@ -14,80 +14,74 @@ function Features() {
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
-        <div className="feauters__cards--card card1">
+        <div className="feauters__cards--card card2">
           <div className="feauters__card--card--picture"></div>
           <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
-        <div className="feauters__cards--card card1">
+        <div className="feauters__cards--card card3">
           <div className="feauters__card--card--picture"></div>
           <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
-        <div className="feauters__cards--card card1">
+        <div className="feauters__cards--card card4">
           <div className="feauters__card--card--picture"></div>
           <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
-        <div className="feauters__cards--card card1">
+        <div className="feauters__cards--card card5">
           <div className="feauters__card--card--picture"></div>
           <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
-        <div className="feauters__cards--card card1">
+        <div className="feauters__cards--card card6">
           <div className="feauters__card--card--picture"></div>
           <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
           <div className="feauters__cards--card--description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus distinctio minus illo autem excepturi dicta, harum
-              voluptates ipsam esse, repudiandae necessitatibus amet quibusdam
-              unde non explicabo commodi et, recusandae alias!
+              Lorem ipsum dolor sit amet consectetur adipisicing Voluptatibus
+              distinctio minus illo autem excepturi dicta, harum voluptates
+              ipsam esse.
             </p>
           </div>
         </div>
