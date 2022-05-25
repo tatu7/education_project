@@ -1,10 +1,12 @@
+$breakpoint-phone: 390px;
+$breakpoint-lanscape: 1280px;
+$breakpoint-tablet: 790px;
 .courses {
   width: 90%;
   display: block;
   margin: 0 auto;
   $breakpoint-phone: 390px;
-  @media (max-width: $breakpoint-phone) {
-  }
+
   .title {
     font-size: 48px;
     font-weight: bold;
@@ -15,18 +17,28 @@
     }
   }
   .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: center;
     gap: 30px;
     @media (max-width: $breakpoint-phone) {
+      display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
     }
+    @media (max-width: $breakpoint-lanscape) {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .course {
       background-color: #f1f1f1;
+      max-width: 385px;
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 300px;
+      }
+      @media (max-width: $breakpoint-phone) {
+        max-width: 100%;
+      }
       .img {
         img {
           width: 100%;
@@ -43,10 +55,16 @@
           padding: 20px;
           gap: 15px;
         }
-
+        @media (max-width: $breakpoint-lanscape) {
+          padding: 15px 25px;
+          gap: 10px;
+        }
         .heading_secondary {
           font-size: 30px;
           font-weight: bold;
+          @media (max-width: $breakpoint-lanscape) {
+            font-size: 24px;
+          }
           @media (max-width: $breakpoint-phone) {
             font-size: 24px;
           }
@@ -56,6 +74,9 @@
           line-height: 1.5;
           @media (max-width: $breakpoint-phone) {
             font-size: 14px;
+          }
+          @media (max-width: $breakpoint-lanscape) {
+            font-size: 16px;
           }
         }
       }
@@ -67,36 +88,58 @@
         flex-direction: column;
         align-items: center;
         font-weight: bold;
-        gap: 10px;
+        gap: 5px;
         @media (max-width: $breakpoint-phone) {
           font-size: 18px;
           padding: 15px 30px;
+        }
+        @media (max-width: $breakpoint-lanscape) {
+          gap: 5px;
+          font-size: 18px;
         }
         .time {
           padding: 6px;
           @media (max-width: $breakpoint-phone) {
             padding: 5px;
+            text-align: center;
+            @media (max-width: $breakpoint-lanscape) {
+              padding: 5px;
+            }
           }
-        }
-        hr {
-          width: 90%;
-          height: 2px;
-          color: #cfcfcf;
-        }
-        .join {
-          background-color: #27ae60;
-          color: #fff;
-          font-weight: bold;
-          font-size: 24px;
-          width: 90%;
-          padding: 10px;
-          border-radius: 30px;
-          border: none;
-          cursor: pointer;
-          margin-top: 20px;
-          @media (max-width: $breakpoint-phone) {
-            font-size: 18px;
-            width: 110%;
+          hr {
+            width: 90%;
+            height: 2px;
+            color: #cfcfcf;
+          }
+          .join {
+            background-color: #27ae60;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            width: 90%;
+            padding: 10px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-top: 30px;
+            border: 3px solid #27ae60;
+            @media (max-width: $breakpoint-lanscape) {
+              margin-top: 0;
+              font-size: 20px;
+            }
+            @media (max-width: $breakpoint-phone) {
+              font-size: 18px;
+              padding: 6px;
+              margin-top: 10px;
+              width: 100%;
+            }
+            &:hover {
+              background-color: #27ae5fca;
+            }
+            &:active {
+              border: 3px solid #0e4a27;
+            }
           }
         }
       }

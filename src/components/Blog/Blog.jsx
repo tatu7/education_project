@@ -30,31 +30,38 @@ function Blog() {
           />
           <BlogCard
             link={blog2}
-            title="Education with technologies"
+            title="How to use music in education"
             p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu mod tempor incididunt ut labore et"
           />
           <BlogCard
             link={blog3}
-            title="Education with technologies"
+            title="Turning goals into 
+reality"
             p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu mod tempor incididunt ut labore et"
           />
           <BlogCard
             link={blog4}
-            title="Education with technologies"
+            title="Turning goals into 
+reality"
             p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu mod tempor incididunt ut labore et"
           />
           <BlogCard
             link={blog5}
-            title="Education with technologies"
+            title="The nation into 
+education"
             p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu mod tempor incididunt ut labore et"
           />
           <BlogCard
             link={blog6}
-            title="Education with technologies"
+            title="Gamification and 
+learning"
             p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu mod tempor incididunt ut labore et"
           />
         </div>
       </div>
+      <a href="#" className="btn-blog">
+        Read more
+      </a>
     </div>
   );
 }

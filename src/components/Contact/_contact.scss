@@ -1,3 +1,33 @@
+@mixin responsive($breakpoint) {
+  @if $breakpoint==desktop {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  @if $breakpoint==toqqiz {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint==olti {
+    @media (max-width: 650px) {
+      @content;
+    }
+  }
+  @if $breakpoint==besh {
+    @media (max-width: 530px) {
+      @content;
+    }
+  }
+  @if $breakpoint==mobile {
+    @media (max-width: 402px) {
+      @content;
+    }
+  }
+}
+.contact-us {
+  width: 100%;
+}
 .section-sub {
   // background-color: black;
   background-image: url("../../Assets/images/signUp.png");
@@ -46,3 +76,62 @@
   }
 }
 // 36 24
+.contact-section {
+  margin: 6.6rem auto;
+}
+.contact {
+  display: flex;
+  width: 80%;
+  margin: 6.6rem auto;
+  gap: 3rem;
+}
+.send__form {
+  display: flex;
+  flex-direction: column;
+  width: 57rem;
+  height: 62rem;
+  gap: 3rem;
+  &--btn {
+    width: 20rem;
+  }
+  &--input,
+  &--area {
+    border: none;
+    border-bottom: 0.1rem solid #95989a;
+    outline: none;
+    padding: 1.4rem;
+    ::placeholder {
+      font-size: 1.8rem;
+    }
+  }
+  &--area {
+    border: 0.1rem solid #95989a;
+    height: 24rem;
+  }
+}
+.heading-secondary {
+  text-align: center;
+  font-size: 4.8rem;
+}
+.map {
+  width: 57rem;
+}
+.connection {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.8rem;
+  &-icon {
+    width: 3rem;
+    // height: 2rem;
+  }
+}
+.adress {
+  width: 17rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.google-map {
+  padding-bottom: 3rem;
+}
