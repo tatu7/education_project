@@ -7,6 +7,7 @@ import course3 from "../../Assets/images/course3.png";
 const course_database = [
   {
     id: 1,
+    active: "active",
     img: `${course1}`,
     name: "Web Design",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing eli Voluptate, ex totam",
@@ -15,6 +16,7 @@ const course_database = [
   },
   {
     id: 2,
+    active: "",
     img: `${course2}`,
     name: "Photography",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing eli Voluptate, ex totam",
@@ -22,6 +24,7 @@ const course_database = [
     teacher: "Floyd Fukuda",
   },
   {
+    active: "",
     id: 3,
     img: `${course3}`,
     name: "Digital Marketing",
