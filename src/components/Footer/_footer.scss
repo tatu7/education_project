@@ -24,12 +24,20 @@
       @content;
     }
   }
+  @if $breakpoint==uch {
+    @media (max-width: 340px) {
+      @content;
+    }
+  }
 }
 .footer {
   width: 100%;
   height: auto;
   padding: 2rem 0;
   background-color: black;
+  @include responsive(uch) {
+    margin-top: 70rem;
+  }
 }
 .footer {
   width: 100%;

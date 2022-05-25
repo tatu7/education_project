@@ -6,7 +6,9 @@ $breakpoint-tablet: 790px;
   display: block;
   margin: 0 auto;
   $breakpoint-phone: 390px;
-
+  @media (max-width: $breakpoint-phone) {
+    margin-bottom: 4rem;
+  }
   .title {
     font-size: 48px;
     font-weight: bold;

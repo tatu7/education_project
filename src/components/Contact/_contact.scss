@@ -71,7 +71,7 @@
       gap: 3rem;
       justify-content: center;
     }
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     &-form {
       display: flex;
@@ -117,6 +117,11 @@
 // 36 24
 .contact-section {
   margin: 6.6rem auto;
+  margin-bottom: 2rem;
+  @include responsive(uch) {
+    margin-top: 3.6rem;
+    margin-bottom: 2rem;
+  }
 }
 .contact {
   display: grid;
@@ -145,7 +150,7 @@
   display: flex;
   flex-direction: column;
   // width: 57rem;
-  height: 62rem;
+  height: 48rem;
   gap: 3rem;
   &--btn {
     width: 20rem;
@@ -169,6 +174,9 @@
 .heading-secondary {
   text-align: center;
   font-size: 4.8rem;
+  @include responsive(uch) {
+    font-size: 3rem;
+  }
 }
 .map {
   width: 100%;
