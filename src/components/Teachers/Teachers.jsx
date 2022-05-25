@@ -73,13 +73,17 @@ function Teachers() {
   return (
     <>
       <div className="teachers">
-        <h1 className="title">Our Teachers</h1>
-        <div className="main">
+        <h1 className="teachers__title">Our Teachers</h1>
+        <div className="teachers__main">
           {teacher_DataBase.map((val) => {
             return (
               <div className="teacherTitle" key={val.id}>
                 <div className="teacherTitle__imgTeacher">
-                  <img className="teacherTitle__imgTeacher--img" src={val.img} alt="#" />
+                  <img
+                    className="teacherTitle__imgTeacher--img"
+                    src={val.img}
+                    alt="#"
+                  />
                 </div>
                 <div className="teacherTitle__teacher">
                   <p className="teacherTitle__teacher--name">{val.name}</p>
