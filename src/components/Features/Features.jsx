@@ -5,16 +5,14 @@ import "../main.scss";
 function Features() {
   return (
     <div className="feauters">
-      <div className="featurs_title">
-        <h2>Feauters</h2>
-      </div>
-      <div className="feauters_cards">
-        <div className="feauters_cards__card card1">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+      <h2 className="featurs__title">Feauters</h2>
+      <div className="feauters__cards">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
@@ -23,12 +21,12 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="feauters_cards__card card2">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
@@ -37,12 +35,12 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="feauters_cards__card card3">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
@@ -51,12 +49,12 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="feauters_cards__card card4">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
@@ -65,12 +63,12 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="feauters_cards__card card5">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
@@ -79,12 +77,12 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="feauters_cards__card card6">
-          <div className="feauters_cards__card--picture"></div>
-          <div className="feauters_cards__card--title">
+        <div className="feauters__cards--card card1">
+          <div className="feauters__card--card--picture"></div>
+          <div className="feauters__cards--card--title">
             <p>Online Testing</p>
           </div>
-          <div className="feauters_cards__card--description">
+          <div className="feauters__cards--card--description">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus distinctio minus illo autem excepturi dicta, harum
