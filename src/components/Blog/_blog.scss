@@ -1,0 +1,41 @@
+.blog-section {
+  text-align: center;
+}
+.section-title {
+  font-size: 3.5rem;
+}
+.blog-container {
+  width: 90%;
+  overflow: auto;
+  margin: 0 auto;
+}
+.blog-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3rem;
+  width: 150%;
+  animation-name: carousel;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.14, 0.83, 0.64, 0.97);
+}
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-17%);
+  }
+  50% {
+    transform: translateX(-34%);
+  }
+  75% {
+    transform: translateX(-17%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.card-image {
+  width: 100%;
+}
