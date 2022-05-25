@@ -15,6 +15,9 @@
     justify-content: space-around;
     color: white;
     font-size: 3rem;
+    @media (max-width: 1000px) {
+      font-size: 2rem;
+    }
 
     &-form {
       display: flex;
@@ -34,15 +37,5 @@
     }
   }
 }
-.btn-primary {
-  background-color: #27ae60;
-  font-size: 2rem;
-  color: white;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  &:hover {
-    cursor: pointer;
-  }
-}
+
 // 36 24

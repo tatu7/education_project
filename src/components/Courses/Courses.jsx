@@ -4,6 +4,7 @@ import "../main.scss";
 import course1 from "../../Assets/images/course1.png";
 import course2 from "../../Assets/images/course2.png";
 import course3 from "../../Assets/images/course3.png";
+
 const course_database = [
   {
     id: 1,
@@ -35,7 +36,7 @@ function Courses() {
   return (
     <div className="courses">
       <h1 className="title">Courses</h1>
-      <div className="main">
+      {/* <div className="main">
         {course_database.map((val) => {
           return (
             <div className="course" key={val.id}>
@@ -56,7 +57,7 @@ function Courses() {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
