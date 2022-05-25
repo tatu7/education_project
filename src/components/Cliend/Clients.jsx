@@ -1,6 +1,8 @@
 import React from "react";
+import "antd/dist/antd.css";
 import "../main.scss";
 import "./_client.scss";
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 function Clients() {
   return (
@@ -8,7 +10,7 @@ function Clients() {
       <h2 className="client__title">What client say</h2>
       <div className="clients">
         <div className="clients__back">
-          <img src="../../Assets/images/2931159_arrow_forward_right_move_navigation_icon.png" />
+          <LeftOutlined />
         </div>
         <div className="clients__active">
           <div className="clients__active--pictures">
@@ -44,7 +46,7 @@ function Clients() {
           </div>
         </div>
         <div className="clients__next">
-          <img src="../../Assets/images/2931159_arrow_forward_right_move_navigation_icon.png" />
+          <RightOutlined />
         </div>
       </div>
     </div>
