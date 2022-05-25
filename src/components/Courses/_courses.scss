@@ -32,7 +32,7 @@ $breakpoint-tablet: 790px;
         max-width: 300px;
       }
       @media (max-width: $breakpoint-phone) {
-        max-width: 350px;
+        max-width: 100%;
       }
       .img {
         img {
@@ -89,14 +89,14 @@ $breakpoint-tablet: 790px;
           padding: 15px 30px;
         }
         @media (max-width: $breakpoint-lanscape) {
-          gap: 0;
+          gap: 5px;
           font-size: 18px;
         }
         .time {
           padding: 5px;
           text-align: center;
           @media (max-width: $breakpoint-lanscape) {
-            padding: 0;
+            padding: 5px;
           }
         }
         hr {
@@ -115,13 +115,22 @@ $breakpoint-tablet: 790px;
           border: none;
           cursor: pointer;
           margin-top: 30px;
-          @media (max-width: $breakpoint-phone) {
-            font-size: 18px;
-            width: 110%;
-          }
+          border: 3px solid #27ae60;
           @media (max-width: $breakpoint-lanscape) {
             margin-top: 0;
             font-size: 20px;
+          }
+          @media (max-width: $breakpoint-phone) {
+            font-size: 18px;
+            padding: 6px;
+            margin-top: 10px;
+            width: 100%;
+          }
+          &:hover {
+            background-color: #27ae5fca;
+          }
+          &:active {
+            border: 3px solid #0e4a27;
           }
         }
       }
